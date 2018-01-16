@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>404</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <style>
     html{
-      font-family: 'Lato', sans-serif;
+      font-family: 'Julius Sans One', sans-serif;
       font-size: 10px;
     }
+
+    body{
+      background-color: rgb(230, 230, 230);
+    }
+
     .flex-container{
       display: flex;
       align-items: center;
@@ -24,26 +29,28 @@
       text-align: center;
     }
 
-    .flex-item h1{
+    .flex-item.header p{
       font-size: 10em;
     }
 
     .flex-item p{
       margin: 0;
-      font-size: 20em;
+      font-size: 25em;
     }
 
     .flex-item.footer p{
       margin: 2em;
-      font-size: 2em;
+      font-size: 5em;
     }
     </style>
+
+
   </head>
   <body>
     <section>
       <div class="flex-container">
           <div class="flex-item header">
-            <h1>404</h1>
+            <p>404</p>
           </div>
           <div class="flex-item">
             <p>
@@ -51,7 +58,7 @@
             </p>
           </div>
           <div class="flex-item footer">
-            <p>Did you try unplugging it???</p>
+            <p>Did you try unplugging it?</p>
           </div>
       </div>
     </section>
